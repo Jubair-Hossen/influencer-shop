@@ -77,6 +77,10 @@ main, header{
 .top-banner .top-banner-image{
     width: 40%;
 }
+.top-banner .top-banner-image img:hover{
+    transform: rotate(20deg) scale(1.1);
+    transition: transform 0.5s;
+}
 .top-banner .top-banner-image img{
     width: 100%;
 }
@@ -152,6 +156,7 @@ main, header{
     margin-top: 4px;
 }
 
+
 /* footer section */
 footer{
     background-color: #0A0826;
@@ -215,9 +220,13 @@ footer i{
     }
     .logo-section{
         padding: 20px;
+        margin: 50px auto;
     }
     .logo-section .logos{
         grid-template-columns: repeat(4, 1fr);
+    }
+    .products-container{
+        margin: 50px auto;
     }
     .products{
         grid-template-columns: 1fr;
