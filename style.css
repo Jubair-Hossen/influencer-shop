@@ -156,12 +156,36 @@ main, header{
     margin-top: 4px;
 }
 
+.newslatter-section{
+    text-align: center;
+    margin: 50px auto;
+}
+.newslatter-section h1{
+    margin-bottom: 20px;
+}
+.newslatter-section input{
+    padding: 10px;
+    border-right: none;
+    border: 1px solid #c9c6c6;
+}
+.newslatter-section input:focus{
+    outline: none;
+}
+.newslatter-section button{
+    border: 1px solid #c9c6c6;
+    padding: 10px;
+    border-left: none;
+    margin-left: -4px;
+    background-color: #E02C6D;
+    color: #ffffff;
+}
 
 /* footer section */
 footer{
     background-color: #0A0826;
     color: white;
     text-align: center;
+    margin-top: 100px;
     padding: 40px;
 }
 footer h2{
