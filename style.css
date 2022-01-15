@@ -179,6 +179,11 @@ main, header{
     background-color: #E02C6D;
     color: #ffffff;
 }
+.newslatter-section .newsletter{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
 
 /* footer section */
 footer{
