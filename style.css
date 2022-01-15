@@ -84,9 +84,9 @@ main, header{
 .logo-section{
     max-width: 1000px;
     margin: 100px auto 150px;
-    border-top-width: 3px;
+    border-top-width: 2.5px;
     border-top-style: solid;
-    border-bottom-width: 3px;
+    border-bottom-width: 2.5px;
     border-bottom-style: solid;
     border-image: linear-gradient(to right, #ffffff, #bdbdbd, #ffffff) 1;
     padding: 40px;
@@ -99,9 +99,6 @@ main, header{
 }
 .logo-section .logos img{
     width: 80%;
-}
-.logo-section .logos .logo{
-
 }
 
 /* products section */
@@ -179,8 +176,48 @@ footer i{
     margin: 0 8px;
     padding: 10px;
     font-size: 20px;
-    background-color: #1b183f;
+    background-color: hsl(245, 45%, 17%);
     border-radius: 50%;
 }
 
 /* tablet devices */
+@media only screen and (max-width: 991px){
+    .top-banner h1{
+        font-size: 36px;
+        line-height: 42px;
+        margin-bottom: 12px;
+    }
+    .top-banner p{
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+    .products{
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+/* Mobile devices */
+@media only screen and (max-width: 767px){
+    .navbar{
+        display: none;
+    }
+    .top-banner{
+        flex-direction: column-reverse;
+    }
+    .top-banner .top-banner-image{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .top-banner .top-banner-text{
+        width: 100%;
+        text-align: center;
+    }
+    .logo-section .logos{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .products{
+        grid-template-columns: 1fr;
+    }
+
+}
