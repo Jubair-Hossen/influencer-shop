@@ -181,7 +181,7 @@ footer i{
 }
 
 /* tablet devices */
-@media only screen and (max-width: 991px){
+@media only screen and (max-width: 1100px){
     .top-banner h1{
         font-size: 36px;
         line-height: 42px;
@@ -212,6 +212,9 @@ footer i{
     .top-banner .top-banner-text{
         width: 100%;
         text-align: center;
+    }
+    .logo-section{
+        padding: 20px;
     }
     .logo-section .logos{
         grid-template-columns: repeat(4, 1fr);
